@@ -1,0 +1,11 @@
+/* Reset default margin and padding for the body element */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://blackscreen.space/images/pro/black-screen_39.png'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  font-family: Arial, sans-serif;
+  color: white; /* Text color on the background */
+}
