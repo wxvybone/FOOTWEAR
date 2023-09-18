@@ -45,3 +45,8 @@ img{
     top: 600px;
     left: 600px;
 }
+
+.link {
+    position: relative;
+    top: 400px;
+}
