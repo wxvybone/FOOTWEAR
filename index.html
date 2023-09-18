@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>FOOTWEAR</title>
+  <title>CodePen - Shoes Picks</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,7 +10,6 @@
 <!-- partial:index.partial.html -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +30,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
         }
 
         /* Remove video controls and autoplay */
@@ -44,111 +42,59 @@
 
         /* Style for content */
         .content {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            position: relative;
+            z-index: 1;
+            /* Place content above the video */
             text-align: center;
-            color: Blue;
+            padding: 20px;
+            color: #ffffff; /* Set the text color to white */
+        }
+
+        /* Style for headings */
+        h1 {
+            color: magenta; /* Set heading text color to orange */
         }
 
         /* Style for links */
-        a {
-            color: magenta; /* Magenta text color */
-            text-decoration: none;
-            margin: 10px;
+        h2 {
+            color: blue; /* Set link text color to light blue */
+            text-decoration: none; /* Remove underlines from links */
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Style for the list */
-        ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            max-width: 800px; /* Adjust this value to control the maximum width of the list */
-            flex-wrap: wrap; /* Wrap items to the next line if they don't fit */
-        }
-
-        li {
-            flex: 1;
-            margin: 10px;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px; /* Add space between each image */
+        /* Style for the paragraph */
+        p {
+            color: #ffcc00; /* Set paragraph text color to yellow */
         }
     </style>
-    <title>Fullscreen Background Video</title>
-</head>
 
+</head>
 <body>
     <div class="background-video">
-        <video autoplay loop muted>
-            <source src="https://storage.cloudconvert.com/tasks/df281184-c0f5-4a29-b0be-47225a691ffb/Website%20vid%20-%20Made%20with%20Clipchamp%20%284%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230915%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230915T075030Z&X-Amz-Expires=86400&X-Amz-Signature=fc2f62aaf18282d03de88d7ccad3a05f55dffc0856ac1b577ca86a6ca90cb43a&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Website%20vid%20-%20Made%20with%20Clipchamp%20%284%29.mp4%22&response-content-type=video%2Fmp4&x-id=GetObject" type="video/mp4">
+        <video id="background-video" autoplay loop muted>
+            <source src="https://shorturl.at/ghnNT" type="video/mp4">
         </video>
     </div>
+
+    <!-- Content -->
     <div class="content">
-        <h1> "$HOE$"</h1>
-        <h3>"CONTEMPORARY PICK$"</h3>
-        <ul>
-            <li>
-                <h4>"AIR MAX 95"</h4>
-                <img src="https://i.pinimg.com/564x/ce/29/fa/ce29fa6b6fcc1d45530cc001f01ca3fe.jpg" width="200">
-                <p>Created by Sergio Lozano, The Air Max 95 takes inspiration from human anatomy. Its robust look and versatile colors make it a staple amongst streetwear enthusiasts. It is my favorite shoe of all time.</p>
-                <a href="https://www.nike.com/w?q=air%20max%2095s&vst=air%20max%2095s" target="_blank">"$HOP"</a>
-                or
-                <a href="https://www.pinterest.com/search/pins/?q=air%20max%2095%20outfit&rs=typed" target="_blank">"$TYLE IT"</a>
-            </li>
-            <li>
-                <h4>"AIR MAX PLUS"</h4>
-                <img src="https://i.pinimg.com/564x/68/16/5a/68165a1df0c584166beeca78d18457ef.jpg" width="200">
-                <p>Sean Mcdowell's creation has a similar look to the 95 but differs enough to be its own entity. Vibrant colors on each version of the shoe add personality to any outfit someone puts on.</p>
-                <a href="https://www.nike.com/w/air-max-plus-shoes-ahvdnzy7ok" target="_blank">"$HOP"</a>
-                or
-                <a href="https://www.pinterest.com/search/pins/?q=air%20max%20plus%20outfit&rs=typed" target="_blank">"$TYLE IT"</a>
-            </li>
-            <li>
-                <h4>"CHUCK LOWS"</h4>
-                <img src="https://i.pinimg.com/736x/28/17/38/281738910a469fdfae96bb33c7c1ed2f.jpg" width="200">
-                <p>With one of the greatest shoe silhouettes of all time, the Chuck 70 serves as a timeless shoe that is a staple in anyone's closet.</p>
-                <a href="https://www.nike.com/w?q=chuck%20taylor%20low&vst=chuck%20taylor%20low" target="_blank">"$HOP"</a>
-                or
-                <a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=chuck%20low%20outfit&eq=chuck%20low%20ou&etslf=11749" target="_blank">"$TYLE IT"</a>
-            </li>
-            <li>
-                <h4>"CORTEZ"</h4>
-                <img src="https://i.pinimg.com/564x/73/4c/79/734c79aefebbb9979f6fb28fa1d8a488.jpg" width="200">
-                <p>A classic similar to the Chucks, The Cortez has been a staple of West Coast culture for decades. Stars ranging from Snoop Dogg to Eazy E donned the sneaker in the 90's. This remains a versatile shoe you can add to your collection.</p>
-                <a href="https://www.nike.com/w?q=cortez&vst=cortez" target="_blank">"$HOP"</a>
-                or
-                <a href="https://www.pinterest.com/search/pins/?q=cortez%20outfit&rs=typed" target="_blank">"$TYLE IT"</a>
-            </li>
-            <li>
-                <h4>"FORUM LOWS"</h4>
-                <img src="https://i.pinimg.com/564x/2c/f8/fa/2cf8fa90672394cdfa64929d00e9214c.jpg" width="200">
-                <p>Our first Adidas shoe just HAD to be a banger. With a basic design combined with a strap at the top of the upper, the Adidas Forum gives early Elementary/Primary School vibes. Don't be fooled though, it can go with ANYTHING.</p>
-                <a href="https://www.adidas.com/us/forum" target="_blank">"$HOP"</a>
-                or
-                <a href="https://www.pinterest.com/search/pins/?q=adidas%20forum%20low%20outfits&rs=typed" target="_blank">"$TYLE IT"</a>
-            </li>
-            <!-- Add more list items as needed -->
-        </ul>
-      <a href="https://wxvybone.github.io/FASHIONFALLS/">"Return To FA$HION FALL$"</a>
+        <h1>"$HOE$ 4 THE $ZN"</h1>
+      
+      <h2> 👇🏾"CLICK THE SMILE"👇🏾</h2>
+      
+      
+      
+      
+      
+      <title>Open Ranking</title>
+</head>
+<body>
+    <!-- Create a button that links to a website -->
+    <a href="https://wxvybone.github.io/CONSTRUCTION/">
+      <img src="https://cloud-object-storage-cos-standard-6ho.s3.us-east.cloud-object-storage.appdomain.cloud/lens%20smile%20(1).png" alt="CLICK HERE"
+    </a>
+</body>
     </div>
 </body>
-
 </html>
 <!-- partial -->
   
