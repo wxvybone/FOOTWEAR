@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>FOOTWEAR</title>
+  <title>CodePen - FOOTWEAR</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -63,8 +63,15 @@
 
         /* Style for the paragraph */
         p {
-            color: #ffcc00; /* Set paragraph text color to yellow */
+            color: brown; /* Set paragraph text color to yellow */
         }
+      .points {
+        color: blue;
+        text-decoration: none;
+      }
+      a {
+        color: magenta;
+      }
     </style>
 
 </head>
@@ -77,12 +84,72 @@
 
     <!-- Content -->
     <div class="content">
-        <h1>"$HOE$ 4 THE $ZN"</h1>
+        <h1>"FOOTWEAR"</h1>
       
-      <title>Button</title>
-      </head>
-  <body>
-    <h2><a href = "wxvybone.github.io/CONSTRUCTION/" class = "link">"CLICK ME"</a></h3>
+     <title>Random Sentence Generator</title>
+			</head>
+
+			<body>
+				<h2 id="randomSentence">
+				</h2>
+
+				<script>
+					// Array of predetermined sentences
+					const sentences = [
+						'"MY MARTIN WA$ A MAI$ON ROCK MARGIELA$ WITH NO LACE$"',
+ '"MY EYE$ BLOOD$HOT BUT MY JET DONT LAG. A PAIR OF JORDAN 3$ TRYNA CHA$E THI$ CA$H”',
+ '"OPEN UP MY CLO$ET TO THAT NEW $HOE $MELL"',
+'“AND THE NIKE$ ON MY FEET KEEP MY CYPHER COMPLETE”',
+ '"CHECK$ OVER $TRIPE$"',
+ '"IN L.A. WE WEARING CHUCK$ NOT BALLY$"',
+'“I NEED 2 PAIR$”',
+ '"A PAIR OF BRIGHT PHAT YELLOW AIR MAX. HIT THE RACK$ $TACK EM UP. $ON $20 OFF NO TAX."' ,
+'"I $TAY $PORTIN PLAYED JORDAN$ BEFORE JORDAN. VER$E$ TIGHT, HOOK$ HARDER THAN KEN NORTON"',
+ '"REEBOK BABY YOU NEED TO TRY $OME NEW THING. HAVE YOU EVER HAD $HOE$ WITHOUT $HOE $TRING$?"',
+ '"GIMME THE BLACK AND PLATINUM, AND THE LEATHER GRAY, THE ONE$ IN THE BACK AND THE PAIR YOU GOT ON DI$PLAY"',
+            '"$EE THE$E ICE CUBE$, $EE THE$E ICE CREAM$"'
+						// Add more sentences as needed
+					];
+					// Function to generate a random sentence
+					function generateRandomSentence() {
+						// Get a random index from the array
+						const randomIndex = Math.floor(Math.random() * sentences.length);
+						// Get the random sentence based on the random index
+						const randomSentence = sentences[randomIndex];
+						// Display the random sentence on the web page
+						document.getElementById("randomSentence").textContent = randomSentence;
+					}
+					// Call the function to generate a random sentence initially
+					generateRandomSentence();
+				</script>
+			</body>
+
+		<div class = "points">
+
+			<ul>
+				<li>
+          <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"$HOE$ 4 THE $ZN"</a></h3>
+        </li>
+        <li>
+          <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"MY ALL TIME FAV$"</a></h3>
+        </li>
+        <li>
+          <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"RECOMMENDED BRAND$"</a></h3>
+        </li>
+          <li>
+          <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"PIONEER$ OF THE GAME & THEIR MAGNUM OPU$"</a></h3>
+        </li>
+        
+       <div class = "return">
+         <h4><a href="#" onclick="goBack()">"Return to FASHION FALLS"</a></h4>
+
+    <script>
+      
+        
+        function goBack() {
+             window.history.back();
+          }
+					<h3><a 
     
       
       

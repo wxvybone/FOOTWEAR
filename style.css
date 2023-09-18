@@ -31,7 +31,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: 99vh;
 	color: magenta; /* Change text color to magenta */
 	font-family: Times New Roman, sans-serif;
 }
@@ -45,8 +45,22 @@ img{
     top: 600px;
     left: 600px;
 }
+.quote{
+  position: relative;
+    top: 20vh;
+}
 
-.link {
-    position: relative;
-    top: 400px;
+.list{
+  position: relative;
+    top: 1vh;
+}
+
+.title{
+  position: relative;
+  top: 1vh;
+}
+
+.return{
+ position: relative; 
+ top: 5vh; 
 }
